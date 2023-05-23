@@ -1,0 +1,58 @@
+@media screen and (min-width: 576px) {
+  .bg-desk {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: cover;
+    background-size: 100%;
+  }
+  .bg-mob {
+    display: none;
+  }
+  .main-content {
+    flex-direction: column;
+    margin: 2.5rem 5rem;
+    gap: 2rem;
+  }
+  .logo svg {
+    width: 17%;
+  }
+  .content {
+    flex-direction: row;
+    padding-block: 3rem;
+    gap: 3.75rem;
+  }
+  .img-content {
+    flex-basis: 57.3%;
+  }
+  .main-img {
+    width: 100%;
+  }
+  .text-content {
+    flex-basis: 42.7%;
+    align-items: start;
+    text-align: start;
+  }
+  .content-headline {
+    font-size: 2.8em;
+  }
+  .text {
+    font-size: 1.1em;
+  }
+  .registration-btn {
+    width: 40%;
+    padding: 0.975rem;
+    text-align: center;
+    font-size: 1.1em;
+  }
+  .social-icons {
+    /* align-self: flex-end; */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
